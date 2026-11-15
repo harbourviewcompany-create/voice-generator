@@ -1,0 +1,18 @@
+# Generated audio
+*.mp3
+*.wav
+*.ogg
+output/
+
+# Python
+__pycache__/
+*.py[cod]
+.env
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp

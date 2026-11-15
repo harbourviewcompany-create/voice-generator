@@ -1,0 +1,20 @@
+{
+  "id": "harbour",
+  "name": "Harbour",
+  "description": "Calm, authoritative Canadian male — mid-30s",
+  "gender": "male",
+  "age": "mid-30s",
+  "accent": "Canadian English (soft)",
+  "pitch": "medium-low",
+  "rate": "moderate",
+  "timbre": "warm, slightly gravelly",
+  "emotion_baseline": "calm confidence",
+  "style": "professional narration / conversational",
+  "grok_prompt": "Use the Harbour voice: calm authoritative Canadian male, mid-30s, medium-low pitch, warm slightly gravelly timbre, moderate pace, calm confidence.",
+  "web_speech": {
+    "lang": "en-CA",
+    "rate": 0.95,
+    "pitch": 0.9,
+    "volume": 1.0
+  }
+}

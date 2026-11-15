@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Voice Generator</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Voice Generator</h1>
+      <p class="subtitle">Browser-based TTS + Voice Profile System</p>
+    </header>
+
+    <section class="card">
+      <label for="profile">Voice Profile</label>
+      <select id="profile">
+        <option value="harbour">Harbour — Calm Canadian Male</option>
+        <option value="nova">Nova — Warm Professional Female</option>
+        <option value="custom">Custom (edit settings below)</option>
+      </select>
+    </section>
+
+    <section class="card grid">
+      <div>
+        <label for="rate">Rate <span id="rateVal">0.95</span></label>
+        <input type="range" id="rate" min="0.5" max="1.5" step="0.05" value="0.95" />
+      </div>
+      <div>
+        <label for="pitch">Pitch <span id="pitchVal">0.9</span></label>
+        <input type="range" id="pitch" min="0.5" max="1.5" step="0.05" value="0.9" />
+      </div>
+      <div>
+        <label for="volume">Volume <span id="volumeVal">1.0</span></label>
+        <input type="range" id="volume" min="0" max="1" step="0.05" value="1" />
+      </div>
+    </section>
+
+    <section class="card">
+      <label for="text">Text to Speak</label>
+      <textarea id="text" rows="5" placeholder="Enter the text you want spoken...">Welcome to Harbourview. We specialize in regulated cannabis market intelligence and international partnerships.</textarea>
+    </section>
+
+    <section class="actions">
+      <button id="speak" class="primary">Generate Voice</button>
+      <button id="stop">Stop</button>
+      <button id="copyPrompt">Copy Grok Prompt</button>
+    </section>
+
+    <section class="card">
+      <h3>Grok Optimization Prompt</h3>
+      <pre id="promptPreview"></pre>
+    </section>
+
+    <footer>
+      <p>Tip: Use this browser demo for quick testing, then refine with Grok using the generated prompt above.</p>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

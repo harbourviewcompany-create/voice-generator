@@ -1,0 +1,20 @@
+{
+  "id": "nova",
+  "name": "Nova",
+  "description": "Warm, clear professional female — late 20s",
+  "gender": "female",
+  "age": "late 20s",
+  "accent": "Neutral North American",
+  "pitch": "medium",
+  "rate": "moderate",
+  "timbre": "clear, warm, slightly bright",
+  "emotion_baseline": "friendly professionalism",
+  "style": "conversational / explainer",
+  "grok_prompt": "Use the Nova voice: warm clear professional female, late 20s, medium pitch, clear warm slightly bright timbre, moderate pace, friendly professionalism.",
+  "web_speech": {
+    "lang": "en-US",
+    "rate": 1.0,
+    "pitch": 1.1,
+    "volume": 1.0
+  }
+}
